@@ -44,5 +44,5 @@ public class altera_preco {
         float num = 1 + (porcentagem/100);
         return precos*num;
     }
-        
+
 }
