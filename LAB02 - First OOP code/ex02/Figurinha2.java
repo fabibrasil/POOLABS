@@ -3,7 +3,7 @@ package ex02;
 import ex01.ex01Figurinha;
 
 public class Figurinha2 {
-    String nome;
+    private String nome;
     private String dataNascimento;
     private double altura;
     private double peso;

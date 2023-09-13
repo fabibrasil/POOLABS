@@ -17,6 +17,15 @@ public class ex01Figurinha {
         this.pais = pais;
     }
 
+    public ex01Figurinha(String pais) { //construtor
+        this.nome = "Nome Padrão";
+        this.dataNascimento = "01/01/2000";
+        this.altura = 0.0;
+        this.peso = 0.0;
+        this.posicao = "Posição Padrão";
+        this.pais = pais;
+    }
+
     public void mostrarInformacoes(){
         System.out.println("Nome: " + nome);
         System.out.println("Data de nascimento: " + dataNascimento);
