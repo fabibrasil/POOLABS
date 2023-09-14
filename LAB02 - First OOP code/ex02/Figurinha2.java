@@ -23,24 +23,44 @@ public class Figurinha2 {
         this.nome = nome;
     }
 
+    public String getNome(){
+        return nome;
+    }
     public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 
+    public String getDataNascimento(){
+        return dataNascimento;
+    }
     public void setAltura(double altura) {
         this.altura = altura;
     }
 
+    public double getAltura(){
+        return altura;
+    }
     public void setPeso(double peso) {
         this.peso = peso;
+    }
+
+    public double setPeso(){
+        return peso;
     }
 
     public void setPosicao(String posicao) {
         this.posicao = posicao;
     }
 
+    public String getPosicao(){
+        return posicao;
+    }
     public void setPais(String pais) {
         this.pais = pais;
+    }
+
+    public String getPais(){
+        return pais;
     }
 
     public void mostrarInformacoes() {

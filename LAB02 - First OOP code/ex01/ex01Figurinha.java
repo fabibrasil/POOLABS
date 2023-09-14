@@ -8,7 +8,7 @@ public class ex01Figurinha {
      String posicao;
      String pais;
 
-    public ex01Figurinha(String nome, String dataNascimento, double altura, double peso, String posicao, String pais){
+    public ex01Figurinha(String nome, String dataNascimento, double altura, double peso, String posicao, String pais){ //construtor
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.altura = altura;
