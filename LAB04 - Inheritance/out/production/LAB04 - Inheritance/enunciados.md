@@ -45,21 +45,21 @@ Teste de chamada de herança
 - Em todas as classes, inclua um método que chama mostar_atributos_super, que mostra os valores de *todos* os atributos de um objeto e que utilize *super*
 
 # Ex05
-Uma ex05.empresa tem quatro tipos de funcionários: chefes, vendedores, operários e horistas. Cada um desses funcionários ganha seus salários conforme regras distintas, apresentadas a seguir: 
+Uma empresa tem quatro tipos de funcionários: chefes, vendedores, operários e horistas. Cada um desses funcionários ganha seus salários conforme regras distintas, apresentadas a seguir: 
 
-ex05.Chefe: salário fixo e predefinido;
-ex05.Vendedor: valor fixo + comissão * vendas;
-ex05.Operario: valor por produção * quantidade produzida;
-ex05.Horista: valor por hora * total de horas trabalhadas.
+Chefe: salário fixo e predefinido;
+Vendedor: valor fixo + comissão * vendas;
+Operario: valor por produção * quantidade produzida;
+Horista: valor por hora * total de horas trabalhadas.
 
 
-Crie as classes correspondentes, adicionando atributos e métodos que achar necessários. A classe *ex05.Funcionario* deve incluir os campos privados *nome*, *dataNascimento* e *salario*. Além disso, crie uma classe *Empresa*, que conterá o método *ex01.ex04.main()*. A ex05.empresa tem vários funcionários, logo crie um vetor (array) para cada tipo de funcionário, instancie no mínimo 2 exemplos de cada tipo de funcionário. Mostre uma chamada para cálculo do salário
+Crie as classes correspondentes, adicionando atributos e métodos que achar necessários. A classe *Funcionario* deve incluir os campos privados *nome*, *dataNascimento* e *salario*. Além disso, crie uma classe *Empresa*, que conterá o método *ex01.ex04.main()*. A empresa tem vários funcionários, logo crie um vetor (array) para cada tipo de funcionário, instancie no mínimo 2 exemplos de cada tipo de funcionário. Mostre uma chamada para cálculo do salário
 
 # Ex06
-Crie uma classe chamada {ex06.Ingresso}, que possui um valor e um método {escreveValor()}. Em seguida:
+Crie uma classe chamada {Ingresso}, que possui um valor e um método {escreveValor()}. Em seguida:
 
-Crie uma classe {ex06.VIP}, que herda {ex06.Ingresso} e possui um valor adicional. Crie um método que retorne o valor do ingresso ex06.VIP (com o adicional incluído).
+Crie uma classe {VIP}, que herda {Ingresso} e possui um valor adicional. Crie um método que retorne o valor do ingresso VIP (com o adicional incluído).
 	
-Crie uma classe {ex06.Normal}, que herda {ex06.Ingresso} e possui um método que imprime: "ex06.Ingresso ex06.Normal".
+Crie uma classe {Normal}, que herda {Ingresso} e possui um método que imprime: "Ingresso Normal".
 	
-Crie uma classe {ex06.CamaroteInferior} (que possui a localização do ingresso e métodos para acessar e imprimir esta localização) e uma classe {ex06.CamaroteSuperior}, que é mais cara (possui valor adicional). Esta última possui um método para retornar o valor do ingresso. Ambas as classes herdam a classe {ex06.VIP}.
+Crie uma classe {CamaroteInferior} (que possui a localização do ingresso e métodos para acessar e imprimir esta localização) e uma classe {CamaroteSuperior}, que é mais cara (possui valor adicional). Esta última possui um método para retornar o valor do ingresso. Ambas as classes herdam a classe {VIP}.
